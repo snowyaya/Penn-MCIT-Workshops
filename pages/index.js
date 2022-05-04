@@ -48,7 +48,7 @@ const Home = () => (
       <Section delay={0.1}>
         <Box align="left" my={4}>
           <NextLink href="/works">
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="pink">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="gray">
               Go to workshop!
             </Button>
           </NextLink>
