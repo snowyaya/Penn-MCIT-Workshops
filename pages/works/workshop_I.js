@@ -26,11 +26,21 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Session Leaders</Meta>
-          <span>xx, xxx, xxx</span>
+          <ListItem> Leader XXX
+          </ListItem>
         </ListItem>
         <ListItem>
           <Meta>Topics</Meta>
           <span>Web 3.0, Cryptocurrency, Blockchain</span>
+        </ListItem>
+        <ListItem>
+          <Meta>Notes</Meta>
+          <ListItem>
+            <span>Notes...</span>
+          </ListItem>
+          <ListItem>
+            <span>Notes...</span>
+          </ListItem>
         </ListItem>
       </List>
 
