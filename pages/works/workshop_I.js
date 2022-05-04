@@ -9,9 +9,7 @@ const Work = () => (
       <Title>
         Web3{' '}
         <Badge>
-          <Link href="">
-            zoom link
-          </Link>
+
         </Badge>
       </Title>
 
@@ -24,6 +22,13 @@ const Work = () => (
           <ListItem> MM-DD-YYYY
           </ListItem>
         </ListItem>
+        <ListItem>
+          <Meta>Zoom</Meta>
+          <Link href="">
+            zoom link
+          </Link>
+        </ListItem>
+
         <ListItem>
           <Meta>Session Leaders</Meta>
           <ListItem> Leader XXX
