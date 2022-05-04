@@ -74,14 +74,13 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Workshops
           </LinkItem>
-          <LinkItem href="/works" path={path}>
+          <LinkItem href="/about" path={path}>
             About
           </LinkItem>
         </Stack>
 
         <Box flex={1} align="right">
           <ThemeToggleButton />
-
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu isLazy id="navbar-menu">
               <MenuButton
@@ -91,7 +90,7 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <NextLink href="/" passHref>
+                <NextLink href="/about" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
