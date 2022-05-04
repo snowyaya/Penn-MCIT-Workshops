@@ -22,7 +22,7 @@ export const DogContainer = forwardRef(({ children }, ref) => (
     // w={[280, 480, 640]}
     // h={[280, 480, 640]}
     w={[480, 600, 800]}
-    h={[480, 600, 900]}
+    h={[480, 600, 800]}
     position="relative"
   >
     {children}
