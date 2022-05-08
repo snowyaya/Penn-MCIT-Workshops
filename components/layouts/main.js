@@ -27,7 +27,7 @@ const Main = ({ children, router }) => {
         <meta property="og:site_name" content="Penn MCIT Workshops" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/card.png" />
-        <title>MCIT Web3 Club</title>
+        <title>Penn MCIT Workshops</title>
       </Head>
 
       <NavBar path={router.asPath} />
