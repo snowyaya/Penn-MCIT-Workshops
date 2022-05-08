@@ -10,13 +10,13 @@ const Works = () => (
   <Layout title="Works">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Workshop
+        Workshops
       </Heading>
 
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <WorkGridItem id="workshop_I" title="Workshop I" thumbnail={web3}>
-            Session #1
+          <WorkGridItem id="web3" title="Web3" thumbnail={web3}>
+            We'll discuss web3 topics.
           </WorkGridItem>
         </SimpleGrid>
       </Section>

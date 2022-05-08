@@ -28,7 +28,7 @@ const Home = () => (
         textAlign="left"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Welcome to Penn MCIT web3 club! Join a workshop and grow with us!
+        Welcome to Penn MCIT workshops! Join a workshop and grow together!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -49,7 +49,7 @@ const Home = () => (
         <Box align="left" my={4}>
           <NextLink href="/works">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="gray">
-              Go to workshop!
+              Find a workshop!
             </Button>
           </NextLink>
         </Box>
